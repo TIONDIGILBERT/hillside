@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Co_courricular">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_1"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cultural"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text=" @cultural gala"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,LabelFor,VisualLintTextFieldSize" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cultural1"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Music class"
+                tools:ignore="Autofill,HardcodedText,LabelFor,VisualLintTextFieldSize" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_3"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="dances"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
